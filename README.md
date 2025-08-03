@@ -38,6 +38,7 @@ Benchmark closeness centrality (≈0.871 1/km)
 ### 5. Visualize Results
 Plotting how metrics change as center shifts
 Detecting the threshold at which distortion becomes significant
+
 ---
 ## Key Results
 - Metric	Observation
