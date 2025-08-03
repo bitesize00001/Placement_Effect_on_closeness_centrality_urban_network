@@ -18,14 +18,6 @@ This project:
 
 ---
 
-##  Repository Structure
-
-
-├──code
-├   └── 0_5_Placement_Effect_on_closeness_centrality_(cc)_HH.ipynb  # Main Jupyter notebook
-├── paper
-├   └── Normalized_closeness_centrality_of_urban_networks_.pdf      # Published paper
-└── README.md
 
 ## Workflow Summary
 ### 1. Define 8 Catchment Areas
@@ -46,27 +38,26 @@ Benchmark closeness centrality (≈0.871 1/km)
 ### 5. Visualize Results
 Plotting how metrics change as center shifts
 Detecting the threshold at which distortion becomes significant
-
+---
 ## Key Results
 - Metric	Observation
 - Closeness Centrality (Cc)	Decreases as center moves away from target node
 - Normalized Closeness (Cn)	Adjusts for network size; aligns more with spatial logic
 - Threshold Distance	If center moves >100m, bias exceeds 2%
 - Idealized Benchmark	Cn ≈ 0.871 1/km in grid networks
-
+---
 ## Figures and Table References
 This notebook reproduces:
-
 - Table 1 — Node metrics across 8 catchments
 - Figure 4a — Closeness centrality vs. distance
 - Figure 4b — Normalized centrality vs. distance (real vs. idealized)
 - Figure 5 — Deviation curve and 100m threshold
-
+---
 ## Tech Stack
 - Python 3.9+
 - Jupyter Notebook
 - osmnx, networkx, pandas, matplotlib
-
+---
 ## Author
 Dr.-Ing. Hsiao-Hui Chen
 Urban data scientist | Health informatics | Network analysis
